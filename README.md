@@ -2,11 +2,7 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-### Create MySQL db with the name at the config\database.js
-
-```
-Example: strapi_db
-```
+### Update MySQL db infomation with the name at the config\database.js and create DB
 
 ### `develop`
 
