@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "CommenterInfos": {
+      "displayName": "Commenter Infors",
+      "type": "component",
+      "repeatable": false,
+      "component": "comment-info.commenter-infors"
+    },
+    "Parent_ID": {
+      "type": "integer"
+    }
+  }
+}

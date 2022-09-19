@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_comment_info_commenter_infors",
+  "info": {
+    "displayName": "Commenter Infors"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
