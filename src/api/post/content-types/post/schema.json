@@ -24,9 +24,9 @@
       "type": "richtext",
       "required": true
     },
-    "users_permissions_users": {
+    "users_permissions_user": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
     "Thumbnail": {
