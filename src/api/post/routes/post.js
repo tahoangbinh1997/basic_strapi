@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
 /**
- * post router.
+ * post router
  */
 
-const { createCoreRouter } = require("@strapi/strapi").factories;
-const defaultRouter = createCoreRouter("api::post.post");
+const { createCoreRouter } = require('@strapi/strapi').factories;
+const defaultRouter = createCoreRouter('api::post.post');
 
 // function to add to or override default router methods
 const customRouter = (innerRouter, routeOveride = [], extraRoutes = []) => {
@@ -41,9 +41,9 @@ const customRouter = (innerRouter, routeOveride = [], extraRoutes = []) => {
 // Overide the default router with the custom router to use slug.
 const myOverideRoutes = [
   {
-    method: "GET",
-    path: "/posts/:slug",
-    handler: "api::post.post.findOne",
+    method: 'GET',
+    path: '/posts/:slug',
+    handler: 'api::post.post.findOne',
   },
 ];
 
