@@ -24,6 +24,12 @@
     },
     "Parent_ID": {
       "type": "integer"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::post.post",
+      "inversedBy": "comments"
     }
   }
 }
